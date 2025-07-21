@@ -25,7 +25,7 @@
   "homepage": "https://github.com/mpelka/get-cookies",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mpelka/get-cookies.git"
+    "url": "git+https://github.com/mpelka/get-cookies.git"
   },
   "bugs": {
     "url": "https://github.com/mpelka/get-cookies/issues"
@@ -35,6 +35,11 @@
     "sqlite3": "^5.1.7",
     "yargs": "^18.0.0"
   },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "devDependencies": {
     "@biomejs/biome": "2.1.2",
     "@types/node": "^24.0.15",
